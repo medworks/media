@@ -13,34 +13,31 @@
       ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="themes/js/html5.js"></script>
     <![endif]-->
 
     <!--[if IE]>
-        <link href="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/css/ie.css" rel='stylesheet' type='text/css'>
+        <link href="themes/css/ie.css" rel='stylesheet' type='text/css'>
     <![endif]-->
  
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
     	var templateDir = "http://teothemes.com/wp/scrn/wp-content/themes/SCRN";
-    </script>
+    </script> -->
 
-	<link rel="alternate" type="application/rss+xml" title="SCRN » Feed" href="http://teothemes.com/wp/scrn/feed/">
-	<link rel="alternate" type="application/rss+xml" title="SCRN » Comments Feed" href="http://teothemes.com/wp/scrn/comments/feed/">
-	<link rel="stylesheet" id="aqpb-view-css-css" href="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/teoPanel/Page-Builder/assets/css/aqpb-view.css?ver=1391325474" type="text/css" media="all">
-	<link rel="stylesheet" id="contact-form-7-css" href="http://teothemes.com/wp/scrn/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.6" type="text/css" media="all">
-	<link rel="stylesheet" id="base-css" href="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/css/base.css?ver=1.0" type="text/css" media="all">
-	<link rel="stylesheet" id="layout-css" href="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/css/layout.css?ver=1.0" type="text/css" media="all">
-	<link rel="stylesheet" id="skeleton-css" href="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/css/skeleton.css?ver=1.0" type="text/css" media="all">
-	<link rel="stylesheet" id="flexslider-css" href="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/css/flexslider.css?ver=1.0" type="text/css" media="all">
-	<link rel="stylesheet" id="prettyPhoto-css" href="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/css/prettyPhoto.css?ver=1.0" type="text/css" media="all">
-	<link rel="stylesheet" id="style-css-css" href="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/style.css?ver=1.0" type="text/css" media="all">
-	<link rel="stylesheet" id="source-sans-css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C600%2C700%2C400italic%2C600italic%2C700italic&amp;ver=3.8" type="text/css" media="all">
-	<link rel="stylesheet" id="oswald-css" href="http://fonts.googleapis.com/css?family=Oswald%3A400%2C700%2C300&amp;ver=3.8" type="text/css" media="all">
-	<script type="text/javascript" src="http://teothemes.com/wp/scrn/wp-includes/js/jquery/jquery.js?ver=1.10.2"></script>
-	<script type="text/javascript" src="http://teothemes.com/wp/scrn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
-	<script type="text/javascript" src="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/js/jquery.cycle.all.min.js?ver=3.8"></script>
-	<script type="text/javascript" src="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/js/jquery.flexslider.js?ver=1.0"></script>
-	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://teothemes.com/wp/scrn/xmlrpc.php?rsd">
+	<link rel="stylesheet" id="aqpb-view-css-css" href="themes/css/aqpb-view.css" type="text/css" media="all">
+	<link rel="stylesheet" id="contact-form-7-css" href="themes/css/styles.css" type="text/css" media="all">
+	<link rel="stylesheet" id="base-css" href="themes/css/base.css" type="text/css" media="all">
+	<link rel="stylesheet" id="layout-css" href="themes/css/layout.css" type="text/css" media="all">
+	<link rel="stylesheet" id="skeleton-css" href="themes/css/skeleton.css" type="text/css" media="all">
+	<link rel="stylesheet" id="flexslider-css" href="themes/css/flexslider.css" type="text/css" media="all">
+	<link rel="stylesheet" id="prettyPhoto-css" href="themes/css/prettyPhoto.css" type="text/css" media="all">
+	<link rel="stylesheet" id="style-css-css" href="themes/css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" id="source-sans-css" href="themes/css/fonts.css" type="text/css" media="all">
+	
+	<script type="text/javascript" src="themes/js/jquery.js"></script>
+	<script type="text/javascript" src="themes/js/jquery-migrate.min.js"></script>
+	<script type="text/javascript" src="themes/js/jquery.cycle.all.min.js"></script>
+	<script type="text/javascript" src="themes/js/jquery.flexslider.js"></script>
 
 	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 </head>
@@ -560,37 +557,24 @@
 <!-- End Document
 ================================================== -->
 
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-9278719-20']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
- <script type="text/javascript" src="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/teoPanel/Page-Builder/assets/js/aqpb-view.js?ver=1391325474"></script>
-<script type="text/javascript" src="http://teothemes.com/wp/scrn/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.46.0-2013.11.21"></script>
+<script type="text/javascript" src="themes/js/aqpb-view.js"></script>
+<script type="text/javascript" src="themes/js/jquery.form.min.js"></script>
 <script type="text/javascript">
 /* <![CDATA[ */
 var _wpcf7 = {"loaderUrl":"http:\/\/teothemes.com\/wp\/scrn\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ...","cached":"1"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="http://teothemes.com/wp/scrn/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.6"></script>
-<script type="text/javascript" src="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/js/jquery.sticky.js?ver=1.0"></script>
-<script type="text/javascript" src="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/js/jquery.smooth-scroll.js?ver=1.0"></script>
-<script type="text/javascript" src="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/js/contact-form.js?ver=1.0"></script>
-<script type="text/javascript" src="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/js/jquery.easing.1.3.js?ver=1.0"></script>
-<script type="text/javascript" src="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/js/jquery.prettyPhoto.js?ver=1.0"></script>
-<script type="text/javascript" src="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/js/jquery.inview.js?ver=1.0"></script>
-<script type="text/javascript" src="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/js/custom.js?ver=1.0"></script>
-<script type="text/javascript" src="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/js/jquery.isotope.min.js?ver=1.0"></script>
-<script type="text/javascript" src="http://teothemes.com/wp/scrn/wp-content/themes/SCRN/js/jquery.mobilemenu.js?ver=1.0"></script>
+<script type="text/javascript" src="themes/js/scripts.js"></script>
+<script type="text/javascript" src="themes/js/jquery.sticky.js"></script>
+<script type="text/javascript" src="themes/js/jquery.smooth-scroll.js"></script>
+<script type="text/javascript" src="themes/js/contact-form.js"></script>
+<script type="text/javascript" src="themes/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="themes/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="themes/js/jquery.inview.js"></script>
+<script type="text/javascript" src="themes/js/custom.js"></script>
+<script type="text/javascript" src="themes/js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="themes/js/jquery.mobilemenu.js"></script>
  
 
-</body></html>
+</body>
+</html>
